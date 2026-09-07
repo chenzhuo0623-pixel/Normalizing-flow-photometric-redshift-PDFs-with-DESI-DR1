@@ -82,9 +82,8 @@ The ECDF calibration is derived from the NF predictions on the validation sample
 ```text
 .
 ├── README.md
-├── requirements.txt
 ├── notebooks/
-│   └── NF_photoz_analysis.ipynb
+│   └── NF_photoz_examples.ipynb
 ├── models and catalogues/
 ├── src/
 └── .gitignore
