@@ -23,12 +23,13 @@ The NF model is compared with Random Forest (RF) and Quantile Random Forest (QRF
 The analysis uses:
 
 * **DESI DR1** spectroscopic redshifts
-* **DESI Legacy Imaging Surveys** photometry
+* **DESI Legacy Imaging Surveys DR10** photometry
 * \(g,r,i,z,W1,W2\) magnitudes and colours
 * morphology, flux uncertainties, and imaging-depth information
 
-The survey data are not included in this repository. We just give the example testing data and training data with limited volumes. We also uploaded the trained model with large training data. However, the trained model restrict the input photometric features same with the paper.
-
+The survey data are not included in this repository. We submitted it to the zenodo in link 10.5281/zenodo.23642619 for testing  and traing datasets.
+## Trained Model
+We submitted five trained models in format".pt" with same training datasets with different random seeds. Readers can directly install the training models to obtain the photo-z estimation.
 ## Requirements
 
 * Python >= 3.10
